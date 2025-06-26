@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.express as px
 
 # Read de csv file
-vehicles = pd.read_csv("/Users/fcoar/project7_repo/vehicles_us.csv")
+vehicles = pd.read_csv("vehicles_us.csv")
 st.header("Vehicles for you") # Title of the app
 st.markdown("What are you looking for when youwant to buy a car?") # Subtitle of the app
 
